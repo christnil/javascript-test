@@ -1,7 +1,7 @@
 import sort from '../mergeSort';
 import generateArray from './generateArray';
 
-xdescribe('bubble sort', () => {
+xdescribe('merge sort', () => {
   it('works with empty array', () => {
     const a = [];
     sort(a);

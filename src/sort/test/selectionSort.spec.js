@@ -1,7 +1,7 @@
 import sort from '../selectionSort';
 import generateArray from './generateArray';
 
-xdescribe('bubble sort', () => {
+describe('selection sort', () => {
   it('works with empty array', () => {
     const a = [];
     sort(a);
